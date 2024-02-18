@@ -3,22 +3,20 @@ body{
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
     min-height: 100vh;
+    width: 100%;
 }
 
 .color-gradient1 {
-    height: 25vh; 
+    height: 24vh; 
     background: linear-gradient(#BE2D4A, #CE4761, #DF6177, #EF7A8E, #FF94A4);
-    display: flex;
-    justify-content: center;
     margin: 0;
+    text-align: center;
 }
 
-.logo-nome img {
-    max-height: 85%;
+.logo-nome {
+    max-height: 20vh;
     width: auto;
     margin-top: 2vh;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .back-image {
