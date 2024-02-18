@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+
+.color-gradient1 {
+    height: 25vh; 
+    background: linear-gradient(#BE2D4A, #CE4761, #DF6177, #EF7A8E, #FF94A4);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.logo-nome img {
+    max-height: 85%;
+    width: auto;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-image {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/idosos_sorrindo.PNG'); 
+    background-size: contain; 
+    background-repeat: repeat;
+    min-height: 300px; 
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.infos {
+    margin-left: 2%;
+    font-size: larger;
+    align-items: left;
+}
+
+.txt {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.gradient-button {
+    display: flex;
+    padding: 2% 4%;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(#BE2D4A, #CE4761, #DF6177, #EF7A8E, #FF94A4);
+    border-radius: 25vh;
+    transition: background 0.3s ease;
+    max-width: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.gradient-button img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.gradient-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.gradient-button:hover {
+    background: linear-gradient(to top, #BE2D4A, #CE4761, #DF6177, #EF7A8E, #FF94A4);
+}
+
+.color-gradient2 {
+    height: fit-content; 
+    background: linear-gradient(#FF94A4, #EF7A8E, #DF6177, #CE4761, #BE2D4A);
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    padding-top: 5vh;
+}
+
+.tipos-implantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.box {
+    margin: 2vh;
+    padding: 7% 3%;
+    background-color: white;
+    border-radius: 2vh;
+    border-bottom-left-radius: 10vh;
+    width: 40vh;
+    font-size: large;
+}
+
+.box h3 {
+    color: #BE2D4A
+}
+
+.box p {
+    color: rgb(68, 66, 66)
+}
+
+.wpp-button {
+    padding: 2vh;
+    margin: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(#00BE44, #25CE5C, #4BDF74, #70EF8C);
+    border-radius: 2vh;
+    transition: background 0.3s ease;
+    max-width: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.wpp-button img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.wpp-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.wpp-button:hover {
+    background: linear-gradient(to top, #00BE44, #25CE5C, #4BDF74, #70EF8C, #95FFA4);
+}
+
+.box2 {
+    margin: 2vh;
+    padding: 7% 3%;
+    background-color: white;
+    border-radius: 2vh;
+    border-bottom-left-radius: 10vh;
+    width: 30vh;
+    font-size: large;
+}
+
+.box2 img {
+    max-height: 30vh;
+    width: auto;
+    border-radius: 50%;
+}
+
+.box2 h3 {
+    color: #BE2D4A
+}
+
+.box2 p {
+    color: rgb(68, 66, 66)
+}
+
+.back-color {
+    height: fit-content; 
+    background: rgb(216, 214, 214);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.infos2 {
+    max-height: 80vh;
+    max-width: 50%;
+    padding-left: 10%;
+    padding-top: 7%;
+}
+
+.infos2 h1 {
+    color: #BE2D4A;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.infos2 h2 {
+    color: #BE2D4A;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.infos2 p {
+    color: rgb(68, 66, 66);
+    font-size: larger;
+}
+
+.infos2 ul {
+    margin: 0;
+    padding-left: 2%;
+    color: rgb(68, 66, 66);
+    font-size: larger;
+}
+
+.dentista {
+    max-height: 80vh;
+    width: auto;
+    max-width: 90%;
+    margin: 2%;
+    border-radius: 3vh 10vh;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imagens img {
+    max-height: 80vh;
+    width: auto;
+    max-width: 90%;
+    margin: 2%;
+    border-radius: 3vh;
+}
+
+.balao {
+    width: fit-content;
+    max-width: 75%;;
+    margin-left: 10%;
+    padding: 5%;
+    padding-top: 7%;
+    border-radius: 30vh 50vh 50vh 0;
+    background: linear-gradient(to bottom right, #BE2D4A, #CE4761, #DF6177, #EF7A8E, #FF94A4);
+    color: white;
+    text-align: left;
+}
+
+.phone-button {
+    padding: 2vh;
+    margin: 5vh;
+    margin-left: 0;
+    margin-right: auto;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    background: #FF94A4;
+    border-radius: 10vh;
+    border: 5px solid #fa7305;
+    transition: background 0.3s ease;
+    max-width: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.phone-button img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.phone-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.phone-button:hover {
+    background: linear-gradient(to top, #DF6177, #EF7A8E, #FF94A4);
+}
+
+.info-final {
+    color:#BE2D4A;
+    font-size: large;
+    margin: 1%;
+    text-align: center;
+}
