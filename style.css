@@ -72,7 +72,7 @@ body{
 
 .color-gradient2 {
     height: fit-content; 
-    background: linear-gradient(#FF94A4, #EF7A8E, #DF6177, #CE4761, #BE2D4A);
+    background: linear-gradient(to right, #FF94A4, #EF7A8E, #DF6177, #CE4761, #BE2D4A, #BE2D4A, #CE4761, #DF6177, #EF7A8E, #FF94A4);
     margin: 0;
     padding: 0;
 }
