@@ -169,7 +169,18 @@ body{
     height: fit-content; 
     background: rgb(216, 214, 214);
     margin: 0;
+    padding-top: 3%;
+}
+
+.back-color h1 {
+    color: #BE2D4A;
+    font-size: xx-large;
+    text-align: center;
+    margin: 0;
     padding: 0;
+}
+
+.infos-dentista {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -177,15 +188,7 @@ body{
 
 .infos2 {
     max-height: 80vh;
-    max-width: 50%;
-    padding-left: 10%;
-    padding-top: 7%;
-}
-
-.infos2 h1 {
-    color: #BE2D4A;
-    font-size: xx-large;
-    text-align: center;
+    padding-top: 5%;
 }
 
 .infos2 h2 {
@@ -212,7 +215,6 @@ body{
     max-width: 90%;
     margin: 2%;
     border-radius: 3vh 10vh;
-    margin-top: 5%;
 }
 
 .imagens {
