@@ -8,7 +8,7 @@ body{
 
 .color-gradient1 {
     height: 24vh; 
-    background: linear-gradient(#BE2D4A, #CE4761, #DF6177, #EF7A8E, #FF94A4);
+    background: linear-gradient(#EF7A8E, #FF94A4);
     margin: 0;
     text-align: center;
 }
@@ -32,9 +32,10 @@ body{
 }
 
 .infos {
-    margin-left: 2%;
+    margin: 2%;
     font-size: larger;
     align-items: left;
+    max-width: 60%;
 }
 
 .txt {
